@@ -15,7 +15,7 @@
 			"include": "#strings"
 		},
 		{
-			"include": "#constants"			
+			"include": "#constants"
 		},
 		{
 			"include": "#entities"
@@ -36,6 +36,14 @@
 				{
 					"match": "(//).*$",
 					"name": "comment.line.double-slash.powerpc"
+				},
+				{
+					"match": "(;).*$",
+					"name": "comment.cod.semicolon.powerpc"
+				},
+				{
+					"match": "(#).*$",
+					"name": "comment.ida.hash.powerpc"
 				},
 				{
 					"name": "comment.block.powerpc",
@@ -167,7 +175,7 @@
 			"patterns": [
 				{
 					"match": "\\badd(o|c|co|e|eo|i|ic|is|me|meo|ze|zeo)?\\b",
-					"name": "keyword.mnemonic.add" 
+					"name": "keyword.mnemonic.add"
 				}
 			]
 		},
@@ -327,7 +335,7 @@
 			"patterns": [
 				{
 					"match": "\\bsubf(o|c|co|e|eo|ic|me|meo|ze|zeo)?\\b",
-					"name": "keyword.mnemonic.subtract" 
+					"name": "keyword.mnemonic.subtract"
 				},
 				{
 					"match": "\\bsub(o|c|co|i|is)?\\b",

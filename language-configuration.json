@@ -2,6 +2,10 @@
     "comments": {
         // symbol used for single line comment. Remove this entry if your language does not support line comments
         "lineComment": "//",
+        // symbol used for single line comment using IDA's syntax.
+        "idaComment": "#",
+        // symbol used for single line comment using MSVC++ assembler output syntax in .cod files.
+        "codComment": ";",
         // symbols used for start and end a block comment. Remove this entry if your language does not support block comments
         "blockComment": [ "/*", "*/" ]
     },
